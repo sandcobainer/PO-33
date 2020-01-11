@@ -1,0 +1,25 @@
+{
+  "name": "PO-33",
+  "version": "1.0.0",
+  "description": "[PO-33 Guide](https://po33guide.com) is an interactive open source guide for the pocket sampler PO-33 K.O (launched in 2018 by the Swedish company Teenage Engineering.)",
+  "main": "start.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start" : node start.js,
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smaudd/PO-33.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smaudd/PO-33/issues"
+  },
+  "homepage": "https://github.com/smaudd/PO-33#readme"
+}
