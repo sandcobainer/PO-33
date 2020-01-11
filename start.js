@@ -6,7 +6,7 @@ const server = express();
 server.use(express.static(__dirname + '/main')); //Serves resources from public folder
 server.use(express.static(__dirname + '/style'));
 
-const port = 5000;
+const port = process.env.PORT || 5000;
 server.listen(port, () => {
     console.log(`Server listening at ${port}`);
 });
